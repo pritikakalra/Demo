@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Bootstrap Demo</title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/960_12_col.css">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css"href="https://fonts.googleapis.com/css?family=Tangerine">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+
+				<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="/"><img src="images/UrbanLOGO.png" alt="Your Logo" height="50px" width="100px"></a>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Web Design</a>
+								</li>
+
+								<li>
+									<a href="#">Web Development</a>
+								</li>
+
+								<li>
+									<a href="#">SEO</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li class="dropdown-header">More Services</li>
+
+								<li>
+									<a href="#">Content Creation</a>
+								</li>
+
+								<li>
+									<a href="#">Social Media Marketing</a>
+								</li>
+							</ul><!-- end dropdown-menu -->
+						</li>
+					</ul>
+
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form><!-- end navbar-form -->
+
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+								</li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+								</li>
+							</ul>
+						</li>
+					</ul><!-- end nav pull-right -->
+				</div><!-- end nav-collapse -->
+
+			</div><!-- end container -->
+		</div><!-- end navbar -->
+		<div class="carousel slide" id="myCarousel">
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Touch & feel materials
+							before ordering</h4>
+							<p>Seeing is believing.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Meet our experts,
+								share your dreams</h4>
+								<p>Get great advice.Move in,
+									in 59 days
+									We execute, you relax.</p>
+								</div><!-- end carousel-caption-->
+							</div><!-- end item -->
+
+							<div class="item" id="slide3">
+								<div class="carousel-caption">
+									<h4>Fall in love
+										with our designs</h4>
+										<p>Unique designs for
+											every space & budget.</p>
+										</div><!-- end carousel-caption-->
+									</div><!-- end item -->
+								</div><!-- carousel-inner -->
+
+								<!-- Controls -->
+								<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+								<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+							</div><!-- end myCarousel -->
+							<div class="row" id="bigCallout">
+								<div class="col-12">
+
+									<div class="alert alert-success alert-block fade in" id="successAlert">
+										<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+										<h4>Success!</h4>
+										<p>We will navigate you to new page</p>
+									</div><!-- end alert -->
+
+									<!-- Visible only on small devices -->
+									<div class="well well-small visible-sm">
+										<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+									</div><!-- end well-small -->
+
+									<div class="well">
+										<div class="page-header">
+											<h1>Interior Design Consultation <small>What makes this even easier is that we offer comprehensive solutions, in-house. </small></h1>
+										</div><!-- end page-header -->
+
+										<p class="lead">Our homes reflect our personality, sense of aesthetics, and tastes. It’s easy to find home design inspiration online, in magazines, or in homes we visit. But turning these interior decoration  ideas into reality is the real challenge. This is where Urban Interiors, our interior design service comes in. Work with our team of interior designers to create a beautiful, personalised home!</p>
+
+										<a href="" class="btn btn-large btn-primary" id="alertMe">Click on view to know more</a>
+										<a href="https://www.urbanladder.com/interior-design-consultation?gclid=CKDI8u_uytACFdeFaAodydMMLA" target="_blank" class="btn btn-large btn-link"><h3>View</h3></a>
+									</div><!-- end well -->
+
+								</div><!-- end col-12 -->
+							</div><!-- end bigCallout -->
+
+							<div class="row" id="featuresHeading">
+								<div class="col-12">
+									<h2>Services Offered</h2>
+									<p class="lead">The services offered by us includes the below mentioned things.</p>
+								</div><!-- end col-12 -->
+							</div><!-- end featuresHeading -->
+
+
+							<div class="row" id="features">
+								<div class="col-sm-4 feature">
+									<div class="panel">
+										<div class="panel-heading">
+											<h3 class="panel-title">Modular Kitchens</h3>
+										</div><!-- end panel-heading -->
+										<img src="images/badge_modular_kitchen.jpg" alt="Modular Kitchen" class="img-circle">
+
+										<p>Modular kitchen units help you make the most of the available space. Our full spread of features is available for all layouts, allowing you to create a kitchen that’s built for how you use it.</p>
+
+
+									</div><!-- end panel -->
+								</div><!-- end feature -->
+
+								<div class="col-sm-4 feature">
+									<div class="panel">
+										<div class="panel-heading">
+											<h3 class="panel-title">Modular Wardrobes</h3>
+										</div><!-- end panel-heading -->
+										<img src="images/badge_modular_wardrobe.jpg" alt="Modular Wardrobe" class="img-circle" height="170px" width="300px">
+
+										<p>Indian homes have hidden beams, curious cavities, and other unseen hiccups. Our choice of height, width, and depth options ensure that you find a wardrobe that's perfect for your storage needs.</p>
+
+
+									</div><!-- end panel -->
+								</div><!-- end feature -->
+
+								<div class="col-sm-4 feature">
+									<div class="panel">
+										<div class="panel-heading">
+											<h3 class="panel-title">Furniture & Decor</h3>
+										</div><!-- end panel-heading -->
+										<img src="images/badge_decor.jpg" alt="Furniture and Decor" height="170px" width="300px" class="img-circle">
+
+										<p>Explore a curated collection of over 5000 products across 35 categories–from sofas to bed linen, and everything in between. You’ll find what you’re looking for, here with us.</p>
+
+
+									</div><!-- end panel -->
+								</div><!-- end feature -->
+							</div><!-- end features -->
+
+							<div class="container_12">
+								<div class="grid_8">
+									<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favourite surf spot</small></h4>
+									<div class="jumbotron">
+										<div class="container">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d124453.95820670702!2d77.57514352701864!3d12.895745941078008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1surban+ladder!5e0!3m2!1sen!2sin!4v1480322975160" width="1170" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+										</div>
+									</div>
+									<p>Urban Ladder, an online furniture brand, recently recreated the brand's identity with a new logo and tagline, 'Let's Create'. It symbolises the process of creating a beautiful home with Urban Ladder, a process of collaborative creation. The brand wants every individual to unleash their creative side, starting with their home to make it unique and personal.</p>
+
+									<p>The new logo depicts the four walls of an empty room. Like a canvas, it's brimming with possibilities. Orange is the colour of creativity and joy. The blend of bright hues captures the energy and passion that accompanies the act of creation. The logo encourages every individual to bring out the artist in them, hoping to inspire customers to create something new every time they look at the logo.</p>
+								</div><!-- grid 8 -->
+
+								<div class="wrap grid_4">
+									<h4>Sale Information <small>Its always good to have low prices and better quality</small></h4>
+
+									<img src="images/sale.jpg" class="thumbnail pull-left" alt="Sale" height="250px" width="300px">
+
+									<p>Do you go to sleep dreaming about the cosy comforts of a La-Z Boy? Do you wake up thinking about the lamp you saw on Pinterest? Do you think there’s nothing better than getting gorgeous furniture and home décor for your home on a discount? If you answered yes to any of these questions, then you’re at the right place!
+										Don’t miss the great discounts, offers and sales on the products you love. Keep track of our new promotions, credit card offers, and the updated list of our products that are back in stock on the Urban Ladder coupons page.</p>
+
+										<p> You can also show your love by sending a gift voucher or a gift coupon to your loved ones on the occasion of a birthday, wedding, or housewarming. That will definitely endear you to them. To get the best app offers, download the Urban Ladder app and you will be notified each time we have a voucher or coupon or offer for you – honestly, it’s that simple!
+											You can sign up with us to be kept in the loop about any such updates - a product coming back in stock, discount offers on any product, or a sale we’re doing. You’ll also be the first to know when we run any sales or offers specifically in your city. What’s more, you’ll be notified when new designs arrive and we’ll also share home decor tips and hacks from our experts.</p>
+
+											<hr>
+
+											<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Sign Up</a>
+
+										</div><!-- end grid-->
+									</div><!-- container -->
+
+									<div class="modal fade" id="myModal">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button class="close" data-dismiss="modal">&times;</button>
+
+													<h4 class="modal-title">Register</h4>
+												</div><!-- end modal-header -->
+												<div class="modal-body">
+
+													<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
+
+
+
+													<hr>
+
+
+
+													<form class="form-horizontal">
+														<div class="form-group">
+															<label class="col-lg-2 control-label" for="inputName">Name</label>
+															<div class="col-lg-10">
+																<input class="form-control" id="inputName" placeholder="Name" type="text">
+															</div>
+														</div>
+
+														<div class="form-group">
+															<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+															<div class="col-lg-10">
+																<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+															</div>
+														</div>
+
+														<div class="form-group">
+															<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+															<div class="col-lg-10">
+																<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+																<button class="btn btn-success pull-right" type="submit">Send!</button>
+															</div>
+														</div>
+													</form>
+												</div><!-- end modal-body -->
+
+												<div class="modal-footer">
+													<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+												</div><!-- end modal-footer -->
+											</div><!-- end modal-content -->
+										</div><!-- end modal-dialog -->
+									</div><!-- end myModal -->
+									<div class="row" id="moreInfo" >
+										<div class="col-12">
+											<h3>Know more about our organization</h3>
+											<div class="thumbnails row">
+												<div class="col-6">
+													<div class="thumbnail">
+														<img src="images/idt1.jpg" alt="Balcony & Outdoor Furniture">
+
+														<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span>Free</div>
+
+														<div class="caption">
+															<h3>Balcony & Outdoor Furniture</h3>
+
+															<p>Be it a verdant garden, a spacious patio, or a balcony with a view, every home will have a window to the world outside. And we have balcony furniture online for every kind of space! Deck chairs, sun loungers, swings, tea tables... explore a gamut of garden furniture online, right here</p>
+
+															<p class="pull-left"><a href="https://www.urbanladder.com/balcony?src=g_topnav_living_balcony-outdoor" class="btn btn-primary btn-small" target="_blank">Take a look</a> <a href="https://www.urbanladder.com/balcony?src=g_topnav_living_balcony-outdoor#bestsellers" target="_blank" class="btn btn-small btn-link"><h4>Know more</h4></a></p>
+														</div><!-- end caption -->
+													</div><!-- end thumbnail -->
+												</div><!-- end col-6 -->
+
+												<div class="col-6" >
+													<div class="thumbnail">
+														<img src="images/lights.jpg" alt="Lightening" >
+
+														<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> Free</div>
+
+														<div class="caption">
+															<h3>Lighting</h3>
+
+															<p>Cast a mellow glow on your floors with interesting floor lamps . Made using quality raw material, they add a spark to your interiors. Skilfully accentuated with brass, wrought iron, and other rich material, these lamps are perfect for your interiors.</p>
+
+															<p class="pull-left"><a href="https://www.urbanladder.com/lighting?src=g_topnav_decor_lighting" class="btn btn-primary btn-small" target="_blank">Take a look</a> <a href="https://www.urbanladder.com/lighting?src=g_topnav_decor_lighting#bestsellers" target="_blank" class="btn btn-small btn-link"><h4>Know more</h4></a></p>
+														</div><!-- end caption -->
+													</div><!-- end thumbnail -->
+												</div><!-- end col-6 -->
+											</div><!-- end row -->
+										</div><!-- end col-12 -->
+									</div><!-- end moreInfo -->
+								</div>
+								<footer>
+									<div class="container">
+										<div class="row">
+											<div class="col-sm-2">
+												<h6>Copyright &copy; 2013 {Pritika}</h6>
+											</div><!-- end col-sm-2 -->
+
+											<div class="col-sm-4">
+												<h6>About Us</h6>
+												<p>Home is where the heart is’, sang Elvis, and who are we to disagree. When the founders (Ashish and Rajiv) were trying to set up their homes in Bangalore, they spent a lot of effort trying to get quality furniture and home decor. Conversations with friends gave one clear message – there is a big need for good quality, well-designed, competitively priced and dependable furniture. Indian home-makers are looking for a solution that could help them make beautiful homes, without too much hassle. Existing brands were either poor on quality and service or too highly priced.
+
+													Wondering if there could be a better solution, the founders spent close to 6 months understanding the very basics of the furniture industry and the home décor space, from the raw materials stage through the entire manufacturing process to packaging and shipping the products across India. After some intense planning, trials and discussions with the best manufacturers across India and the world, and hundreds of consumer interviews, the founders narrowed down on a solution that could get distinctive products, manufactured well at prices that consumers would find practical.
+
+													And thus was born the journey of Urban Ladder. We present to you our solution which we will strive to improve every single day of our lives.
+
+													Our vision is to set global benchmarks for distinctive products, consumer experiences and honest best practices.</p>
+												</div><!-- end col-sm-4 -->
+
+												<div class="col-sm-2">
+													<h6>Navigation</h6>
+													<ul class="unstyled">
+														<li><a href="#">Home</a></li>
+														<li><a href="#">Services</a></li>
+														<li><a href="#">Links</a></li>
+														<li><a href="#">Contact</a></li>
+													</ul>
+												</div><!-- end col-sm-2 -->
+
+												<div class="col-sm-2">
+													<h6>Follow Us</h6>
+													<ul class="unstyled">
+														<li><i class="fa fa-twitter"></i><a href="#"> Twitter</a></li>
+														<li><i class="fa fa-facebook"></i><a href="#"> Facebook</a></li>
+														<li><i class="fa fa-google-plus"></i><a href="#"> Google Plus</a></li>
+													</ul>
+												</div><!-- end col-sm-2 -->
+
+												<div class="col-sm-2">
+													<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Pritika</h6>
+												</div><!-- end col-sm-2 -->
+											</div><!-- end row -->
+										</div><!-- end container -->
+									</footer>
+
+									<!-- All Javascript at the bottom of the page for faster page loading -->
+
+									<!-- First try for the online version of jQuery-->
+									<script src="http://code.jquery.com/jquery.js"></script>
+
+									<!-- If no online access, fallback to our hardcoded version of jQuery -->
+									<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+									<!-- Bootstrap JS -->
+									<script src="bootstrap/js/bootstrap.min.js"></script>
+
+									<!-- Custom JS -->
+									<script src="includes/js/script.js"></script>
+
+								</body>
+								</html>
